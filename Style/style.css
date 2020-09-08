@@ -5,7 +5,6 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-
 }
 
 /*header*/
@@ -17,6 +16,11 @@ h1, h2, h3, h4, h5, h6{
 	left: 0px;
 	top: 0px;
 	background: #F8F8F8;
+}
+
+.mark{
+	margin-bottom: 10px;
+	margin-right: 12.8px;
 }
 
 .info_position{
@@ -39,21 +43,49 @@ h1, h2, h3, h4, h5, h6{
 .shop_link{
 	padding-right: 24px;
 	text-decoration:none;
+	color: #1D1D1B;
+	transition: all 0.3s ease;
+}
+
+.shop_link:hover{
+	color:#E0001B;
+	font-size: 16px;
 }
 
 .buy_link{
 	padding-right: 24px;
 	text-decoration:none;
+	color: #1D1D1B;
+	transition: all 0.3s ease;
 }
+
+.buy_link:hover{
+	color: #E0001B;
+	font-size: 16px;
+}
+
 .juridical_link{
 	text-decoration:none;
+	color: #1D1D1B;
+	transition: all 0.3s ease;
+}
+
+.juridical_link:hover{
+	color: #E0001B;
+	font-size: 16px;
 }
 
 .tel_link{
 	margin-left: 384px;
 	text-decoration:none;
+	color: #696969;
+	transition: all 0.3s ease;
 }
 
+.tel_link:hover{
+	color:#E0001B;
+	font-size: 16px;
+}
 
 /*section*/
 .logo{
@@ -69,10 +101,116 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .search{
-	width: 421px;
+	width: 321px;
 	height: 48px;
 	margin-left: 156px;
 }
+
+* {box-sizing: border-box;}
+input, button {
+  outline: none;
+  border-radius: 3px;
+}
+input {
+  background: #fff;
+  padding-left: 15px;
+  border: 1px solid #D5D5D5
+}
+button {
+	border:none;
+	height: 48px;
+    width: 54px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #E0001B;
+    cursor: pointer;
+}
+
+.Favorite_button{
+	width: 180px;
+    border: 0px solid silver;
+    background-color: #fff;
+    margin-right: -552px;
+    margin-top: -12px;
+    transition: all 0.3s ease;
+}
+
+.Favorite_button:hover{
+	height: 70px;
+	background-color:#F8F8F8;
+}
+
+.Favorite{
+    margin-top: -20px;
+    margin-right: -18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.Heart{
+	margin-right: 103px;
+	margin-top: 14px;
+}
+
+.Compare_button{
+	width: 180px;
+    border: 0px solid silver;
+    background-color: #fff;
+    margin-right: -750px;
+    margin-top: -12px;
+    transition: all 0.3s ease;
+}
+
+.Compare_button:hover{
+	height: 70px;
+	background-color:#F8F8F8;
+}
+
+.Compare{
+    margin-top: -20px;
+    margin-right: -18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.libra{
+	margin-right: 103px;
+	margin-top: 8px;
+}
+
+.Basket_button{
+	width: 180px;
+    border: 0px solid silver;
+    background-color: #fff;
+    margin-right: -950px;
+    margin-top: -12px;
+    transition: all 0.3s ease;
+}
+
+.Basket_button:hover{
+	height: 70px;
+	background-color:#F8F8F8;
+}
+
+.Basket{
+    margin-top: -20px;
+    margin-right: -18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.truck{
+	margin-right: 103px;
+	margin-top: 8px;
+}
+
 
 
 
